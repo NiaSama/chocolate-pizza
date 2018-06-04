@@ -1,0 +1,87 @@
+body {
+  width: 920px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+header ul {
+  float: right;
+}
+header li {
+  display: inline-block;
+}
+header div {
+  align-items: left;
+}
+header div div {
+  display: inline-block;
+}
+#thickHr {
+  height: 15px;
+   background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 50%, #888 50%, #888 75%, transparent 75%, transparent);
+   background-size: 4px 4px;
+   width: 100%;
+}
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+}
+h2 {
+  font-family: 'VT323', monospace;
+  color:gray;
+  font-size: 15px;
+}
+h3 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+}
+h4 {
+  font-family: 'VT323', monospace;
+  font-size: 10lx;
+  color:rgb(151, 151, 151);
+}
+#print {
+  float:right;
+}
+main div p {
+  margin-top: 20px;
+  text-indent: 40px;
+  color:gray;
+}
+main ul {
+  width: 49%;
+  display: inline-block;
+  text-indent: 50px;
+  margin-bottom: 40px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 24px;
+  color:gray;
+}
+main li:first-child {
+  margin-top: 30px;
+}
+#checklist {
+  margin-top:20px; 
+  background: url(img/list-bg.png);
+  box-shadow: 5px 5px 5px rgb(144, 144, 144);
+  margin-bottom: 20px;
+}
+bio {
+  display:inline-block;
+
+}
+button {
+  background-color: rgb(219, 127, 66);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+#button {
+  float:right;
+}
+#vanessaText {
+  display:inline-block;
+}
